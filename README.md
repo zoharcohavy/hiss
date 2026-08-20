@@ -1,5 +1,13 @@
-*** This project is temporarily unavailable, if you would like access to
-the current build, please email me at zoharcohavy@gmail.com ***
+## Want to know more?
+
+If you'd like a demo, early access, or just want to talk about the project, get in
+touch:
+
+📧 **zoharcohavy@gmail.com**
+
+— Zohar Cohavy
+
+
 # Hiss
 
 *A collaborative desktop DAW for people who actually play.*
@@ -23,11 +31,3 @@ It runs on a custom low-latency, multithreaded audio engine and includes:
 Hiss is in **active private development**. This repository is a placeholder —
 the source code is **not public**.
 
-## Want to know more?
-
-If you'd like a demo, early access, or just want to talk about the project, get in
-touch:
-
-📧 **zoharcohavy@gmail.com**
-
-— Zohar Cohavy

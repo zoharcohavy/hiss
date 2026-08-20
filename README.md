@@ -1,5 +1,5 @@
 *** This project is temporarily unavailable, if you would like access to
-the current build, please email me at zoharcohavy@gmail.com
+the current build, please email me at zoharcohavy@gmail.com ***
 # Hiss
 
 *A collaborative desktop DAW for people who actually play.*

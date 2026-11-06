@@ -7,15 +7,16 @@ project opens and sounds the same on every machine.
 
 ## ⬇ Download
 
-**[Get the latest version from the Releases page](../../releases/latest)** and pick the file for your computer:
+Click the download for your computer:
 
 | Your computer | Download |
 |---|---|
-| Mac (Apple Silicon or Intel, macOS 12 Monterey or newer) | `T-HISS-…-mac.zip` |
-| Windows 10 / 11 PC (Intel / AMD — most PCs) | `T-HISS-…-windows-x64.zip` |
-| Windows 11 on ARM (Snapdragon, Surface Pro 11 …) | `T-HISS-…-windows-arm64.zip` |
+| **Mac** — Apple Silicon or Intel, macOS 12 Monterey or newer | **[⬇ Download for Mac](https://github.com/zoharcohavy/hiss/releases/download/v1.0.0/T-HISS-1.0.0-mac.zip)** |
+| **Windows PC** — Windows 10 / 11, Intel / AMD (most PCs) | **[⬇ Download for Windows](https://github.com/zoharcohavy/hiss/releases/download/v1.0.0/T-HISS-1.0.0-windows-x64.zip)** |
+| **Windows on ARM** — Windows 11, Snapdragon, Surface Pro 11 … | **[⬇ Download for Windows on ARM](https://github.com/zoharcohavy/hiss/releases/download/v1.0.0/T-HISS-1.0.0-windows-arm64.zip)** |
 
 Unzip it and run it — nothing to install or compile. Not available for Linux yet.
+Release notes and older versions: [the Releases page](../../releases).
 
 ---
 

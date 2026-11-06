@@ -1,15 +1,21 @@
-# HISS
+# T-HISS
 
-A lean, fast DAW for macOS — timeline, mixer, a node-based patching canvas, a
+A lean, fast DAW for **Mac and Windows** — timeline, mixer, a node-based patching canvas, a
 synth designer, a drum machine, a pedalboard, and LAN collaboration. Everything
-that makes sound is something HISS owns: no third-party plugins, so a
+that makes sound is something T-HISS owns: no third-party plugins, so a
 project opens and sounds the same on every machine.
 
-**[⬇ Download the latest build](../../releases)** — grab `HISS.app.zip`
-from the Releases page, unzip it, and drag `HISS.app` to your Applications folder.
+## ⬇ Download
 
-> **macOS only.** HISS is a Mac app (universal — Apple Silicon and Intel). There
-> is no Windows or Linux version yet.
+**[Get the latest version from the Releases page](../../releases/latest)** and pick the file for your computer:
+
+| Your computer | Download |
+|---|---|
+| Mac (Apple Silicon or Intel, macOS 12 Monterey or newer) | `T-HISS-…-mac.zip` |
+| Windows 10 / 11 PC (Intel / AMD — most PCs) | `T-HISS-…-windows-x64.zip` |
+| Windows 11 on ARM (Snapdragon, Surface Pro 11 …) | `T-HISS-…-windows-arm64.zip` |
+
+Unzip it and run it — nothing to install or compile. Not available for Linux yet.
 
 ---
 
@@ -43,18 +49,19 @@ from the Releases page, unzip it, and drag `HISS.app` to your Applications folde
 
 ## Installing
 
-1. Download `HISS.app.zip` from the [Releases page](../../releases) and unzip it.
-2. Drag it to your **Applications** folder.
-3. **First launch:** right-click the app and choose **Open**, then confirm.
+### Mac
+
+1. Download the Mac zip from the [Releases page](../../releases/latest) and unzip it.
+2. Drag **T-HISS** to your **Applications** folder and double-click it.
+3. **First launch:** if macOS says it can't be opened, go to **System Settings → Privacy & Security**,
+   scroll down and click **Open Anyway**. (On older macOS: right-click the app → **Open** → **Open**.)
 
 > **Why the extra step?** The app isn't signed with an Apple Developer
-> certificate, so macOS blocks it on a normal double-click with *"cannot be
-> opened because the developer cannot be verified."* Right-click → Open tells
-> macOS you trust it. You only have to do this once.
+> certificate yet, so macOS asks once before opening it. You only have to do this once.
 >
 > If macOS still refuses, run this once in Terminal:
 > ```bash
-> xattr -dr com.apple.quarantine "/Applications/HISS.app"
+> xattr -dr com.apple.quarantine "/Applications/T-HISS.app"
 > ```
 
 **Microphone access.** On first launch macOS asks for microphone permission —
@@ -63,8 +70,21 @@ decline, everything else still works (playback, MIDI, the transport). To grant
 it later: System Settings → Privacy & Security → Microphone, then reopen
 **File → Audio Devices** or restart the app.
 
-**Requirements:** macOS 14 (Sonoma) or later. The download is a **universal**
-build, so it runs on both Apple Silicon (M1 or newer) and Intel Macs.
+**Requirements:** macOS 12 (Monterey) or later. The Mac download is **universal**,
+so it runs on both Apple Silicon (M1 or newer) and Intel Macs.
+
+### Windows
+
+1. Download the Windows zip for your PC from the [Releases page](../../releases/latest) — **x64** for
+   Intel / AMD PCs (most PCs), **arm64** for Windows on ARM — and unzip it.
+2. Double-click **T-HISS.exe**.
+3. **First launch:** if Windows shows *"Windows protected your PC"*, click **More info → Run anyway**.
+   It only asks once (the app isn't signed with a Microsoft certificate yet).
+
+**Low latency (guitar, live playing):** under **File → Audio Devices** choose
+**Windows Audio (Exclusive Mode)** and a small buffer size.
+
+**Requirements:** Windows 10 or 11 (64-bit), or Windows 11 on ARM.
 
 ---
 
@@ -792,8 +812,7 @@ it.
 
 ## Windows
 
-A Windows build exists and is maintained alongside the macOS one, but isn't
-distributed here yet. Get in touch if you want it.
+T-HISS runs on Windows 10 / 11 (x64) and Windows 11 on ARM — see [Installing](#windows) for the download.
 
 ---
 
@@ -802,8 +821,7 @@ distributed here yet. Get in touch if you want it.
 Open an issue with:
 
 - what you were doing when it happened
-- your macOS version and Mac model
+- your computer: Mac model and macOS version, or your PC and Windows version
 - your audio interface, if one was connected
 
-Crash logs help a lot: **Console.app → Crash Reports**, look for
-`HISS`.
+Crash logs help a lot: on a Mac, **Console.app → Crash Reports**, look for `T-HISS`.
